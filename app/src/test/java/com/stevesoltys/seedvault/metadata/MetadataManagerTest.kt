@@ -106,7 +106,7 @@ class MetadataManagerTest {
             context.checkSelfPermission("android.permission.QUERY_USERS")
         } returns PackageManager.PERMISSION_DENIED
 
-        manager.onDeviceInitialization(token, storageOutputStream)
+        manager.onDeviceInitialization(token)
 
         assertEquals(token, manager.getBackupToken())
         assertEquals(0L, manager.getLastBackupTime())
