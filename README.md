@@ -58,5 +58,6 @@ The [Seedvault backup parser](https://github.com/tlambertz/seedvault_backup_pars
 allows you to decrypt and inspect your backups.
 It can also re-encrypt them.
 
+
 ## License
 This application is available as open source under the terms of the [Apache-2.0 License](https://opensource.org/licenses/Apache-2.0).
